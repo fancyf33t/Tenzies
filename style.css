@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0b2434;
+}
+
+.game-header, .rules-text {
+    color: whitesmoke;
+    margin-top: 30px;
+}
+
+.main {
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: 70px auto;
+    padding: 20px;
+    width: 65%;
+    height: 400px;
+}
+
+.diceDiv {
+    display: grid;
+    grid-template-columns: 100px repeat(4, 100px);
+    justify-content: space-around;
+    gap: 50px;
+    grid-row: 2;
+    margin: 0 auto;
+    padding: 10px;
+    width: 96%;
+
+}
+
+.die {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #e20078;
+    color: #fdfdfd;
+    line-height: 3;
+    font-size: 32px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+
+}
+
+.roll-dice {
+    height: 50px;
+    width: 150px;
+    border: 2px solid #0b2434;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+.isHeld {
+    color: black;
+    background-color: rgb(18, 248, 209);
+}
+
+.tech-stack-section {
+    /* border: 2px solid red; */
+    color: white;
+    height: 25vh;
+}
+.tech-list {
+    list-style-type: none;
+}
+.socials-subheader {
+    border-bottom: 2px solid aliceblue;
+    color: aliceblue;
+}
+
+.icon {
+    display: inline-block;
+    width: 5em;
+    height: 5em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+.socials-section .icon {
+    width: 2em;
+    height: 2em;
+    color:aliceblue;
+    margin: 20px;
+}
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
+  

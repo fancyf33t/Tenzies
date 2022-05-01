@@ -1,0 +1,69 @@
++=========+
+|Typogrphy|
++=========+
+font-family: Karla;
+font-size: 26px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: -0.03em;
+text-align: center;
+
++========+
+|Roll Btn|
++========+
+/* Rectangle 4 */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #5035FF;
+box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+border-radius: 3.81277px;
+
++==========+
+|Number Btn|
++==========+
+/* Rectangle 2 */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #59E391;
+box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+border-radius: 3.81277px;
+
+working function
+const count = 10
+    const randomNum = Math.ceil(Math.random()*6)
+
+    const dice = []
+
+    for (let i = 0; i < count; i++) {
+        dice.push(<Die key={i+1} value={Math.ceil(Math.random()*6)} />)
+    }
+
+Tech Stack: html5, css, react, javascript
+post to github
+
+protonmail
+<svg class="icon icon-protonmail"><use xlink:href="#icon-protonmail"></use></svg>
+css
+<svg class="icon icon-css3"><use xlink:href="#icon-css3"></use></svg>
+github
+<svg class="icon icon-github"><use xlink:href="#icon-github"></use></svg>
+twitter
+<svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
+bootstrap
+<svg class="icon icon-bootstrap"><use xlink:href="#icon-bootstrap"></use></svg>
+linkedin
+<svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
+react
+<svg class="icon icon-react"><use xlink:href="#icon-react"></use></svg>
+html5
+<svg class="icon icon-html5"><use xlink:href="#icon-html5"></use></svg>
+javascript
+<svg class="icon icon-javascript"><use xlink:href="#icon-javascript"></use></svg>
